@@ -49,7 +49,7 @@ def sql_insert_into(table_name, fields, record):
 	return "INSERT INTO " + table_name + " " + fields + \
 		" VALUES " + record + ";"
 
-def populate_db(csv_file, table_name, cursor):
+def populate_table(csv_file, table_name, cursor):
 	'''
 	Uses the provided cursor to a database and populates the 
 	table in the given database with data from the csv file
