@@ -20,4 +20,5 @@ populate_table("data/peeps.csv", "peeps", cursor)
 populate_table("data/courses.csv", "courses", cursor)
 
 db.commit()
+db.close()
 
